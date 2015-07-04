@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+			<title> registration form </title>
+		<head>
+			<script src="jquery.js"></script>
+			<script type="text/javascript">
+			$(document).ready(function(){
+					
+					var output= {
+								
+					}
+				$("#button1").click(function(){
+					var text11= $("#text1").val();
+					var text22= $("#text2").val();
+					var text33= $("#text3").val();
+					var text44= $("#text4").val();
+					var text55= $("#text5").val();
+					var text66= $("#text6").val();
+					
+					output.firstName= text11;
+					output.lsatName= text22;
+					output.text3= text33;
+					output.text4= text44;
+					output.text5= text55;
+					output.text6= text66;
+
+					console.log(output);
+								
+				});
+				
+			});
+			</script>
+		</head>
+			<body>
+				<h1>Registration Form </h1>
+				
+					<table>
+						<tr>
+							<td> First Name: <input type="text" size="15" id="text1"> </td>
+							<td> Last Name: <input type="text" size="15" id="text2"> </td>
+						</tr>
+						<tr>	
+							<td> Ph.No: <input type="text" size="15" id="text3" > </td>
+							<td> Locality: <input type="text" size="15" id="text4"> </td>
+						</tr>
+						<tr>	
+							<td> Address: <input type="text" size="15" id="text5"> </td>
+							<td> Pincode: <input type="text" size="15" id="text6"> </td>
+						</tr>
+							
+						<tr>
+							<td>
+							<input type="button" value="Get Data"  id="button1">
+							</td>
+						</tr>
+					</table>	
+				<div class="details"></div>
+			</body>
+</html>	

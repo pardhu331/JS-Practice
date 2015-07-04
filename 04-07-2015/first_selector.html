@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+	<title> attribute prefix selector </title>
+		<head>
+			<script src="../jquery.js"></script>
+			<script type="text/javascript">
+				$(document).ready(function(){
+					$("#button1").click(function(){
+						$("p img:last").attr({
+							"item-id": 1,
+							"title": "my favorite movie"
+						});
+						
+							$("p img:first").attr({
+								"title":"HollyWood Actress",
+								"height": "300px",
+								"width": "250px"
+							});
+						});
+					});		
+			</script>
+		</head>
+			<body>
+				<div>
+					<p>
+						<img src="kristen_stewart300.jpg" alt="Kristen" title="The Fame Of Twilight"> <br>
+						<img src="cullen-family.jpg" alt="Robert Pattinson" title="The Fame Of Twilight"> <br>
+					</p>
+					<img src="bella-jacob-cullen.jpg" alt="Friends" title="The Fame Of Twilight"> <br>
+					<img src="kristen_stewart300.jpg" alt="Kristen" title="Fame Of Twilight">
+				</div>	
+				<div>
+					<img src="kristen_stewart300.jpg" alt="Kristen" title="The Fame Of Twilight"> <br>
+					<img src="cullen-family.jpg" alt="Robert Pattinson" title="The Fame Of Twilight"> <br>
+					<img src="bella-jacob-cullen.jpg" alt="Friends" title="The Fame Of Twilight"> <br>
+					<img src="kristen_stewart300.jpg" alt="Kristen" title="Fame Of Twilight">
+				</div>
+				<input type="button" value="change the title" id="button1">
+			</body>
+</html>			

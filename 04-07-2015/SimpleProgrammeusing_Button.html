@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+	<title> Stop Button Click </title>
+	<head>
+		<script src="../jquery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var output=0;
+				$("#Button1").click(function(){
+					output++;
+					if(output<=10){
+						alert("you clicked "+output+"times.");
+					}
+					else{
+						$("#Button1").unbind('click');
+					}
+				});
+				
+			});
+		</script>
+	</head>	
+		<body>
+			<input type="button" value="Click Me" id="Button1">
+		</body>
+</html>		

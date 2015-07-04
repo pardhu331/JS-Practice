@@ -1,0 +1,14 @@
+div.line_item{
+		width: 200px;
+		height: 200px;
+		margin: 0, auto;
+		padding: 10px;
+		border-radius: 10px;
+		border: 1px solid #333;
+	}
+
+div.product_item{
+	font-family: monospace;
+	
+
+}

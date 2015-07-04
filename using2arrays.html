@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+	<title> using2arrays </title>
+		<head>
+			<script type="text/javascript">
+			function formdata(){
+				var myarray= ["MONDAY","TUESDAY","WEDNESDAY"];
+					var text11= document.getElementById("text1").value;
+					var text22= document.getElementById("text2").value;
+
+					for(i=0; i < myarray.length; i++) {
+						if(text11.toLowerCase() == myarray[i].toLowerCase()) {
+							alert("available");
+						}
+					}
+
+			}
+
+			</script>
+		</head>
+			<body>
+				Input: <input type="text" size="15" id="text1">
+				Output: <input type="text" size="15" id="text2">
+				<input type="button" value="Get Data" onclick="formdata()">
+			</body>
+</html>			

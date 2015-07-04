@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+	<title> bind unbind </title>
+		<head>
+			<style type="text/css">
+				
+				.kps{
+					background-color: red;
+					color: yellow;
+					font-style: italic;
+				}
+				table {
+					border-style: outset;
+				}
+			</style>
+			</head>
+			<body>
+				<div id="newdiv"> There is some text. </div>
+				<form id-"form1">
+						<table  style="width:300px">
+							<tr>
+								<td style="width=30%"> First Name </td>
+								<td><input type="text" value="pardha" size="20" id="text1"> </td>
+							</tr>
+							<tr>
+								<td style="width=30%"> Last Name </td>
+								<td><input type="text" value="saradhi" size="20" id="text2"> </td>
+							</tr>
+							<tr>
+								<td> comments </td>
+								<td> <textarea rows="8" > Text Area </textarea> </td>
+							</tr>
+							<tr>
+								<td>phone</td>
+								<td>
+									<input type="button"  value="Add Phone Number" id="button1">
+									<div class="PhonesDiv" style="margin-top:10px;">
+										<div>
+											<select id="phonetype" >
+												<option value=""> select one </option>
+												<option value="mobile"> mobile </option>
+												<option value="office"> office </option>
+											</select>
+											</div>
+											<div>
+												<input type="text" class="phonenumber" maxlength="10">
+											</div>
+
+									</div>
+								</td>
+								<tr>
+									<td>  <div>
+											<select>
+												<option>A.P</option>
+												<option>M.P</option>
+												<option>M.H</option>
+												<option>T.N</option>
+											</select>
+										</div>
+										<div>
+												<input type="button"  value="Submit" id="button2" align="left">
+										</div>
+									</td>
+								</tr>	
+								<td>
+										<div id="mydiv"></div>
+								</td>
+							</tr>
+						</table>
+				</form>	
+			</body>
+</html>			

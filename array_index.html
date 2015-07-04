@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+		<head>
+			<title> arrays using index </title>
+				<script type="text/javascript">
+					function myfunction(){
+						var result;
+						var array1= ["ram","sam","tom","top",9,45,56];
+						text11= document.getElementById("text1").value;
+						if(isNaN(text1.value)) {
+					 		 result= array1.indexOf(text1.value,0);
+							console.log(result);
+						}
+						else  {
+						 var result= array1.indexOf(Number(text1.value),0);
+						 console.log(result);
+						}	
+				</script>
+
+				<input type="text" size="15" id="text1">
+				<input type="button" value="Check index" id="button1" onclick="myfunction()">
+			</body>
+</html>

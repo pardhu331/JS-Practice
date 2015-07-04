@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+			<title> registration form </title>
+		<head>
+			<script src="jquery.js"></script>
+			<script type="text/javascript">
+			$(document).ready(function(){
+				
+			});
+			</script>
+		</head>
+			<body>
+				<h1>Registration Form </h1>
+				<form>
+					<table>
+						<tr>
+							<td> First Name: <input type="text" size="15" id="text1"> </td>
+							<td> Last Name: <input type="text" size="15" id="text2"> </td>
+						</tr>
+						<tr>	
+							<td> Ph.No: <input type="text" size="15" id="text3" > </td>
+							<td> Locality: <input type="text" size="15" id="text4"> </td>
+						</tr>
+						<tr>	
+							<td> Address: <input type="text" size="15" id="text5"> </td>
+							<td> Pincode: <input type="text" size="15" id="text6"> </td>
+						</tr>
+							
+						<tr>
+							<td>
+							<input type="button" value="Get Data"  onclick="formdata()">
+							</td>
+						</tr>
+					</table>	
+				</form>
+			</body>
+</html>	
