@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> restrict above 10 </title>
+			<script src="../jquery.js"></script>
+			<script type="text/javascript">
+			$(document).ready(function(){
+				$(".TextInput").keypress(function(key){
+					var output={
+
+					}
+					if(this.value.length >9)
+					{
+						 alert("LimitOver"); 
+						 output.EnterText=$('.TextInput').val();
+						alert(output.EnterText);
+						return false;
+					}	
+								
+				});
+			});			    
+			</script>
+	</head>
+		<body> 
+			EnterText: <input type="text" class="TextInput">
+		</body>
+</html>			

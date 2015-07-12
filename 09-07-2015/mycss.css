@@ -1,0 +1,57 @@
+/*this is for the main div containing all divs.*/
+.tabs{
+	width: 100%;
+	display: inline-block;
+}
+
+/*this is for li elements*/
+.tab-links li{
+	margin: 0px 5px;
+	float: left;
+	list-style: none;
+}
+
+
+
+/*this is for <a> elements in<li>.*/
+.tab-links li a {
+	padding: 10px;
+	display: inline-block;
+	background-color: #456aed;
+	font-weight:600;
+
+}
+
+/*this is for <a> hover*/
+.tab-links li a:hover{
+	background:#33342d;
+    text-decoration:none;
+} 
+
+
+
+/*this is for tab container div*/
+	#tab-container{
+		background-color: #999;
+		padding: 20px;
+		border-radius: 5px;
+	}
+
+
+/*this is for container class*/
+.container{
+	display: none;
+}
+
+/*this is for container-active class*/
+.container-active{
+	display: block;
+}
+
+/* this is for li active*/
+
+.active
+{
+	font-size: 25px;
+	color: #1ea426;
+}
